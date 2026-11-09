@@ -1,0 +1,79 @@
+{
+  "name": "Dhairya",
+  "intro": "B.Tech Computer Science and Engineering student at Ahmedabad University. I build computer-vision, full-stack and ML projects that I test and explain honestly.",
+  "now": [
+    "Strengthening data structures and algorithms and my computer-science fundamentals.",
+    "Research intern at the Institute of Manufacturing and Economy, Ahmedabad University.",
+    "Looking to do research with a professor."
+  ],
+  "site": "https://dhairya233.github.io/",
+  "linkedin": "https://www.linkedin.com/in/dhairyagshah233",
+  "email": "dhairyagshah233@gmail.com",
+  "research": {
+    "title": "Textiles: Growing in Scale, Losing Relative Ground",
+    "url": "https://ahduni.edu.in/academics/schools-centres/the-institute-of-manufacturing-and-economy/insights/textiles-growing-in-scale-losing-relative-ground/",
+    "note": "Sector snapshot from the Institute of Manufacturing and Economy. I did the primary research."
+  },
+  "featured": [
+    {
+      "repo": "Dhairya233/GestureOS",
+      "name": "GestureOS",
+      "id": "gestureos",
+      "pitch": "Control a Windows PC with your bare hands through a webcam.",
+      "stack": "Python, MediaPipe, OpenCV, CustomTkinter",
+      "highlights": [
+        "Turns hand tracking (21 landmarks per hand) into mouse, scroll, media, drawing and app-launch control.",
+        "Starts disarmed. A two-palm hold arms it, and one gateway releases held keys when it disarms.",
+        "630 automated tests drive the real engine with generated hands and a fake input backend, so it is tested without a camera."
+      ]
+    },
+    {
+      "repo": "Dhairya233/life-rpg-protocol",
+      "name": "Life-RPG Protocol",
+      "id": "life-rpg",
+      "pitch": "A gamified productivity app where focus sessions and peer-reviewed proof of work earn XP.",
+      "stack": "Next.js 14, TypeScript, Supabase, PostgreSQL",
+      "live": "https://life-rpg-protocol.vercel.app/login",
+      "highlights": [
+        "Audited my own database and found users could edit their own Aura, XP and role.",
+        "Fixed it with column-level grants, a revoked function right, and identity taken from auth.uid().",
+        "44 attack checks failed on the old schema; about 260 database checks pass now, including a two-session race test."
+      ]
+    },
+    {
+      "repo": "Dhairya233/browser-arcade",
+      "name": "Browser Arcade",
+      "id": "browser-arcade",
+      "pitch": "Two multiplayer board games, Shadow Hunt and Game of Trades, playable on one screen or online.",
+      "stack": "JavaScript, WebRTC, PeerJS",
+      "live": "https://dhairya233.github.io/browser-arcade/",
+      "highlights": [
+        "Found that 26 of 26 state snapshots exposed the hidden player's position, then fixed it with per-seat views and host validation.",
+        "A test reads every message sent to every non-hidden seat across a whole online game.",
+        "135 tests run on every push with GitHub Actions."
+      ]
+    },
+    {
+      "repo": "Dhairya233/Textile-Defect-ML-Model",
+      "name": "Textile Defect ML Model",
+      "id": "fabric-defect",
+      "pitch": "A leak-aware study of how much your data split changes a fabric-defect detector's results.",
+      "stack": "Python, scikit-learn, scikit-image",
+      "live": "https://dhairya233.github.io/Textile-Defect-ML-Model/",
+      "liveLabel": "Results explorer",
+      "highlights": [
+        "On the public AITEX dataset (245 strips, 7 fabrics), a random split overstated random-forest patch-level average precision by 0.44 against splitting by strip.",
+        "With a whole fabric held out, every method scored close to chance.",
+        "Intervals come from 1,000 bootstrap resamples over strips; 75 tests pass."
+      ]
+    }
+  ],
+  "headline": "Computer vision, full-stack and ML projects that I test and explain honestly.",
+  "about": "I'm a third-year B.Tech Computer Science and Engineering student at Ahmedabad University. I like problems where the honest answer takes some measuring: how well does a model really work, where could a system leak, what does the evidence say. My habit is to write the test, or the attack, before I trust the thing.",
+  "github": "Dhairya233",
+  "skills": {
+    "Used in projects": "Python, JavaScript, TypeScript, SQL, MediaPipe, OpenCV, scikit-learn, NumPy, pandas, Next.js, Supabase, WebRTC, pytest, GitHub Actions",
+    "Learning": "Data structures and algorithms, C++, data engineering"
+  },
+  "spoken": "English, Hindi, Gujarati"
+}

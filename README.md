@@ -1,93 +1,95 @@
+<!-- Hello, curious reader. The numbers on this page are computed, not typed: see scripts/build-readme.mjs. -->
 <div align="center">
 
-# Hi there, I'm Dhairya Shah 👋
+# Dhairya Shah
 
-### Developer · Security Enthusiast · Builder of Things
+Computer vision, full-stack and ML projects that I test and explain honestly.
 
-[![GitHub followers](https://img.shields.io/github/followers/Dhairya233?label=Follow&style=social)](https://github.com/Dhairya233)
-[![Profile Views](https://komarev.com/ghpvc/?username=Dhairya233&color=blueviolet&style=flat)](https://github.com/Dhairya233)
+[Website](https://dhairya233.github.io/) · [LinkedIn](https://www.linkedin.com/in/dhairyagshah233) · [Email](mailto:dhairyagshah233@gmail.com) · [Published research](https://ahduni.edu.in/academics/schools-centres/the-institute-of-manufacturing-and-economy/insights/textiles-growing-in-scale-losing-relative-ground/)
 
 </div>
 
----
+## About
 
-## 🧑‍💻 About Me
+I'm a third-year B.Tech Computer Science and Engineering student at Ahmedabad University. I like problems where the honest answer takes some measuring: how well does a model really work, where could a system leak, what does the evidence say. My habit is to write the test, or the attack, before I trust the thing.
 
-I'm a developer with a passion for building projects that sit at the intersection of **security**, **creativity**, and **real-world utility**. Whether it's crafting a digital forensics tool in Python, architecting a full-stack TypeScript app, or designing hardware logic in Verilog — I enjoy learning by building.
+## Right now
 
-- 🔐 Interested in **cryptography, steganography, and digital forensics**
-- ⚡ Currently exploring **full-stack web development** with Next.js & Supabase
-- 🎮 I like turning ideas into experiences — from RPG productivity apps to interactive UIs
-- 📍 Based in India
+- Strengthening data structures and algorithms and my computer-science fundamentals.
+- Research intern at the Institute of Manufacturing and Economy, Ahmedabad University.
+- Looking to do research with a professor.
 
----
+## Featured projects
 
-## 🚀 Featured Projects
+### [GestureOS](https://github.com/Dhairya233/GestureOS)
 
-### 🔑 [StegoVerify](https://github.com/Dhairya233/StegoVerify) — Digital Forensics Suite
-> A comprehensive Python GUI application combining cryptography, steganography, and file integrity verification.
+Control a Windows PC with your bare hands through a webcam.
 
-- **LSB Steganography** — hide and extract secret messages inside PNG images
-- **Text Ciphers** — Vigenère cipher encryption/decryption and Morse code translation
-- **Digital Forensics** — SHA-256 hash generation and file integrity comparison
-- Built with `Python`, `Tkinter`, and `Pillow`
+- Turns hand tracking (21 landmarks per hand) into mouse, scroll, media, drawing and app-launch control.
+- Starts disarmed. A two-palm hold arms it, and one gateway releases held keys when it disarms.
+- 630 automated tests drive the real engine with generated hands and a fake input backend, so it is tested without a camera.
 
----
+<sub>Python, MediaPipe, OpenCV, CustomTkinter</sub> · [Code](https://github.com/Dhairya233/GestureOS) · [Case study](https://dhairya233.github.io/work/gestureos/)
 
-### 🎮 [Life RPG Protocol](https://github.com/Dhairya233/life-rpg-protocol) — Gamified Life Tracker
-> A full-stack productivity app that turns your real life into an RPG — complete with quests, stats, and progression systems.
+### [Life-RPG Protocol](https://github.com/Dhairya233/life-rpg-protocol)
 
-- Built with **Next.js**, **TypeScript**, and **Supabase**
-- Live at [life-rpg-protocol.vercel.app](https://life-rpg-protocol.vercel.app)
-- Features a custom schema and sprint-based database migrations
+A gamified productivity app where focus sessions and peer-reviewed proof of work earn XP.
 
----
+- Audited my own database and found users could edit their own Aura, XP and role.
+- Fixed it with column-level grants, a revoked function right, and identity taken from auth.uid().
+- 44 attack checks failed on the old schema; about 260 database checks pass now, including a two-session race test.
 
-### 🏓 [Verilog Ping Pong](https://github.com/Dhairya233/Verilog-Ping-Pong) — FPGA Game
-> A hardware-level implementation of the classic Pong game written in Verilog — designed for FPGA deployment.
+<sub>Next.js 14, TypeScript, Supabase, PostgreSQL</sub> · [Code](https://github.com/Dhairya233/life-rpg-protocol) · [Live](https://life-rpg-protocol.vercel.app/login) · [Case study](https://dhairya233.github.io/work/life-rpg/)
 
----
+### [Browser Arcade](https://github.com/Dhairya233/browser-arcade)
 
-## 🛠️ Tech Stack
+Two multiplayer board games, Shadow Hunt and Game of Trades, playable on one screen or online.
 
-**Languages**
+- Found that 26 of 26 state snapshots exposed the hidden player's position, then fixed it with per-seat views and host validation.
+- A test reads every message sent to every non-hidden seat across a whole online game.
+- 135 tests run on every push with GitHub Actions.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![Verilog](https://img.shields.io/badge/Verilog-FF6B6B?style=flat&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+<sub>JavaScript, WebRTC, PeerJS</sub> · [Code](https://github.com/Dhairya233/browser-arcade) · [Live](https://dhairya233.github.io/browser-arcade/) · [Case study](https://dhairya233.github.io/work/browser-arcade/)
 
-**Frameworks & Tools**
+### [Textile Defect ML Model](https://github.com/Dhairya233/Textile-Defect-ML-Model)
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+A leak-aware study of how much your data split changes a fabric-defect detector's results.
 
----
+- On the public AITEX dataset (245 strips, 7 fabrics), a random split overstated random-forest patch-level average precision by 0.44 against splitting by strip.
+- With a whole fabric held out, every method scored close to chance.
+- Intervals come from 1,000 bootstrap resamples over strips; 75 tests pass.
 
-## 📊 GitHub Stats
+<sub>Python, scikit-learn, scikit-image</sub> · [Code](https://github.com/Dhairya233/Textile-Defect-ML-Model) · [Results explorer](https://dhairya233.github.io/Textile-Defect-ML-Model/) · [Case study](https://dhairya233.github.io/work/fabric-defect/)
 
-<div align="center">
+Results, decisions and honest limits for each are on the [portfolio site](https://dhairya233.github.io/work/).
 
-![Dhairya's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Dhairya233&show_icons=true&theme=tokyonight&hide_border=true)
+## Research
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Dhairya233&layout=compact&theme=tokyonight&hide_border=true)
+[Textiles: Growing in Scale, Losing Relative Ground](https://ahduni.edu.in/academics/schools-centres/the-institute-of-manufacturing-and-economy/insights/textiles-growing-in-scale-losing-relative-ground/). Sector snapshot from the Institute of Manufacturing and Economy. I did the primary research.
 
-</div>
+## Skills
 
----
+**Used in projects.** Python, JavaScript, TypeScript, SQL, MediaPipe, OpenCV, scikit-learn, NumPy, pandas, Next.js, Supabase, WebRTC, pytest, GitHub Actions  
+**Learning.** Data structures and algorithms, C++, data engineering  
+**Spoken languages.** English, Hindi, Gujarati
 
-## 📫 Get in Touch
+<details>
+<summary>whoami</summary>
 
-I'm always open to collaboration, interesting projects, or just a good tech conversation.
+```text
+$ whoami
+dhairya
+$ cat habits.txt
+write the test, or the attack, before trusting the thing
+say what a result does not show
+$ ls ~/learning
+data-structures-and-algorithms  cpp  data-engineering
+```
 
-[![GitHub](https://img.shields.io/badge/GitHub-Dhairya233-181717?style=flat&logo=github)](https://github.com/Dhairya233)
+</details>
 
----
+## Contact
 
-<div align="center">
-  <sub>Built with curiosity and caffeine ☕</sub>
-</div>
+Email: dhairyagshah233@gmail.com · LinkedIn: https://www.linkedin.com/in/dhairyagshah233
+
+<sub>How this profile is built: [`profile-data.json`](profile-data.json) holds the text, [`scripts/build-readme.mjs`](scripts/build-readme.mjs) turns it into this file and the chart, and a daily GitHub Action reruns it. No third-party stat services. If a repo goes private, its Code link drops out by itself.</sub>
