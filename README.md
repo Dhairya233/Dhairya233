@@ -73,15 +73,6 @@ Results, decisions and honest limits for each are on the [portfolio site](https:
 **Learning.** Data structures and algorithms, C++, data engineering  
 **Spoken languages.** English, Hindi, Gujarati
 
-## By the numbers
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
-  <img src="assets/languages-light.svg" alt="Bar chart of the languages across my public repositories, by share of code bytes" width="720">
-</picture>
-
-<sub>7 public repositories · 7 stars · language share is by code bytes across my public, non-fork repositories, computed by [`scripts/build-readme.mjs`](scripts/build-readme.mjs) from the GitHub API. Bytes measure volume, not skill.</sub>
-
 <details>
 <summary>whoami</summary>
 
