@@ -9,6 +9,21 @@ Computer vision, full-stack and ML projects that I test and explain honestly.
 
 </div>
 
+<div align="center">
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/board-dark-still.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/board-light-still.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/board-dark.svg">
+  <img src="assets/board-light.svg" alt="Contributions by weekday over the last year: Sun 12, Mon 46, Tue 29, Wed 35, Thu 20, Fri 33, Sat 7" width="720">
+</picture>
+
+<sub>A Galton board of my last year: each dot is a share of my 182 contributions, falling through the pegs and landing in its real weekday. Busiest day: Monday.<br>The stacks are real data from the GitHub API; the falling path is random. Rebuilt daily.</sub>
+
+</div>
+
+<div align="center"><sub>2 followers · 7 public repositories · 7 stars received</sub></div>
+
 ## About
 
 I'm a third-year B.Tech Computer Science and Engineering student at Ahmedabad University. I like problems where the honest answer takes some measuring: how well does a model really work, where could a system leak, what does the evidence say. My habit is to write the test, or the attack, before I trust the thing.
@@ -72,6 +87,15 @@ Results, decisions and honest limits for each are on the [portfolio site](https:
 **Used in projects.** Python, JavaScript, TypeScript, SQL, MediaPipe, OpenCV, scikit-learn, NumPy, pandas, Next.js, Supabase, WebRTC, pytest, GitHub Actions  
 **Learning.** Data structures and algorithms, C++, data engineering  
 **Spoken languages.** English, Hindi, Gujarati
+
+## By the numbers
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
+  <img src="assets/languages-light.svg" alt="Bar chart of the languages across my public repositories, by share of code bytes" width="720">
+</picture>
+
+<sub>7 public repositories · 7 stars · language share is by code bytes across my public, non-fork repositories, computed by [`scripts/build-readme.mjs`](scripts/build-readme.mjs) from the GitHub API. Bytes measure volume, not skill.</sub>
 
 <details>
 <summary>whoami</summary>
