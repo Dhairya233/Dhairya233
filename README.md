@@ -15,10 +15,10 @@ Computer vision, full-stack and ML projects that I test and explain honestly.
   <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/board-dark-still.svg">
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/board-light-still.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/board-dark.svg">
-  <img src="assets/board-light.svg" alt="Contributions by weekday over the last year: Sun 12, Mon 46, Tue 29, Wed 35, Thu 20, Fri 33, Sat 7" width="720">
+  <img src="assets/board-light.svg" alt="Contributions by weekday over the last year: Sun 12, Mon 46, Tue 29, Wed 35, Thu 20, Fri 33, Sat 8" width="720">
 </picture>
 
-<sub>A Galton board of my last year: each dot is a share of my 182 contributions, falling through the pegs and landing in its real weekday. Busiest day: Monday.<br>The stacks are real data from the GitHub API; the falling path is random. Rebuilt daily.</sub>
+<sub>A Galton board of my last year: each dot is a share of my 183 contributions, falling through the pegs and landing in its real weekday. Busiest day: Monday.<br>The stacks are real data from the GitHub API; the falling path is random. Rebuilt daily.</sub>
 
 </div>
 
